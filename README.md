@@ -2,7 +2,7 @@
 
 ## 📝 Sobre o projeto
 
-O projeto **Natal** consiste no desenvolvimento de um site informativo sobre uma das celebrações mais tradicionais do mundo. A página apresenta conteúdos sobre a história e o significado do Natal, as comemorações no Brasil e as principais tradições natalinas.
+O projeto **Feliz Natal** consiste no desenvolvimento de um site informativo sobre uma das celebrações mais tradicionais do mundo. A página apresenta conteúdos sobre a história e o significado do Natal, as comemorações no Brasil e as principais tradições natalinas.
 
 Além das páginas informativas, o site conta com uma página dedicada a um formulário, permitindo explorar diferentes tipos de campos e elementos de interação.
 
