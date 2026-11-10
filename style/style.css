@@ -1,0 +1,273 @@
+@font-face {
+    font-family: hello;
+    src: url(../fonts/Hello-Christmas-trial.ttf);
+}
+@font-face {
+    font-family: Christmaslight;
+    src: url(../fonts/ChristmasLightsIndoor.ttf);
+}
+
+body{
+    background-color: #2f3825;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin-bottom: 100px;
+    margin: 0 auto;
+}
+
+.cabecalho {
+    background-image: url(../img/wlppr.jpg);
+    padding: 30px 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 70px;
+}
+
+
+.subtitulo-cabecalho{
+    font-size: 25px;
+    color:#d2c1b7;
+    width: 670px;
+    background-color: #0c0f0a;
+    transition-duration: 0.3s;
+}
+
+.subtitulo-cabecalho:hover{
+    text-shadow: 0px 0px 15px #ffffff;
+}
+
+.menu-principal a{
+    color: #d2c1b7;
+    font-size: 20px
+}
+
+.etiqueta {
+    font-family: 'Christmaslight';
+    font-size: 50px;
+    margin-bottom: 5px;
+    width: 300px;
+    color: #d2c1b7;
+    background-color: #0c0f0a;
+    letter-spacing: 4px;
+    transition-duration: 0.3s;
+}
+
+.etiqueta:hover{
+    text-shadow: 0px 0px 15px #ffffff;
+}
+
+.link{
+    transition-duration: 0.3s;
+    color: #d2c1b7;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.link:hover{
+    background-color: #5f0006;
+    color: #d2c1b7;
+    box-shadow: 0px 0px 15px #fff;
+}
+
+.paragrafo{
+    font-size: 22px;
+    color: #d2c1b7;
+    line-height: 1.6;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.img{
+    border: 5.5px solid #5f0006;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 300px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.img{
+  display: inline-block;
+  margin-right: 25.5px; 
+  transition-duration: 0.4s;
+}
+
+.bloco-img{
+    margin-left: 265px;
+}
+
+.img:hover{
+    transform: translateY(-20px);
+    box-shadow: 0px 0px 15px #8C6C5A;
+}
+
+.card {
+    padding: 24px;
+    background-color: #22281b;
+    border: 5.5px solid #d2c1b7;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    transition-duration: 0.4s;
+}
+
+.card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0px 0px 15px #8C6C5A;
+    background-color: #5f0006;
+}
+
+.card-dois{
+    padding: 20px;
+    background-color: #22281b;
+    border: 5.5px solid #d2c1b7;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 10px 30px rgba(20, 45, 70, 0.08);
+    width: 600px;
+    height: 250px;
+    overflow-y: auto;
+    transition-duration: 0.4s;  
+    display: inline-block;
+    margin-left: 75px;
+    margin-bottom: 75px;
+}
+
+.card-dois:hover{
+    transform: translateY(-20px);
+    box-shadow: 0px 0px 15px #8C6C5A;
+    background-color: #5f0006;
+}
+
+.img-card{
+    border: 5.5px solid #d2c1b7;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 550px;
+    margin-top: 70px; 
+}
+
+
+.titulo{
+    color: #d2c1b7;
+    font-family: 'Verve';
+    font-size: 80px;
+    font-family: hello;
+    width: 370px;
+    background-color: #0c0f0a;
+    transition-duration: 0.3s;
+}
+
+.titulo:hover{
+    text-shadow: 0px 0px 15px #d2c1b7;
+}
+
+.subtitulo{
+    color: #d2c1b7;
+    font-size: 25px;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.luzinhas{
+    font-family: ChristmasLight;
+    font-size: 50px;
+    color: #d2c1b7;
+    margin-top: 100px;
+    margin-bottom: 0;
+    margin-left: 30px;
+    margin-right: 10px;
+    transition-duration: 0.3s;
+}
+
+.luzinhas:hover{
+    text-shadow: 0px 0px 15px #f1323c;
+}
+
+.rodape {
+    margin-top: 150px;
+    padding: 25px;
+    background-color: #0c0f0a;
+    color: #d2c1b7;
+    text-align: center;
+}
+
+.rodape:hover{
+    text-shadow: 0px 0px 15px #ffffff;
+}
+
+.formulario{
+    padding: 25px;
+    margin-left:200px ;
+    margin-right:200px ;
+    margin-top:50px ;
+    background-color:  #d2c1b7;
+    border: 5.5px solid #5f0006;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+}
+
+.formulario:hover{
+    text-shadow: 0px 0px 15px #5f000696;
+}
+
+.formulario fieldset{
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #5f0006;
+    border-radius: 6px;
+}
+
+.formulario legend{
+    padding: 0 8px;
+    color: #734e31;
+    font-weight: bold;
+}
+
+.campo-formulario{
+    margin-bottom: 16px;
+    margin-right: 20px;
+}
+
+
+.campo-formulario label{
+    display: block;
+     margin-bottom: 5px;
+     font-weight: bold;
+}
+
+.campo-formulario input, .campo-formulario select, .campo-formulario textarea{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #5f0006;
+    border-radius: 4px;
+}
+
+.acoes-formulario button{
+    padding: 10px 18px;
+    background-color:#5f0006;
+    color: #d2c1b7;
+    border: 0;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+.acoes-formulario button:hover{
+    background-color:#22281b;
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 15px #fff;
+}
+
+.subtitulo-forms{
+    color: #5f0006;
+    padding: 10px;
+}
